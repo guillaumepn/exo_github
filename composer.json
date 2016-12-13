@@ -1,0 +1,15 @@
+{
+    "name": "root/exogithub",
+    "authors": [
+        {
+            "name": "holoflins",
+            "email": "hulot.morgan@neuf.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+    }
+}
