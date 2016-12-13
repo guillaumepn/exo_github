@@ -23,4 +23,9 @@ class PersonController
     {
         // person has been updated
     }
+
+    public function cgetPerson()
+    {
+        return $this->service->cget();
+    }
 }
