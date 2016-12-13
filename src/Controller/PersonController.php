@@ -19,11 +19,11 @@ class PersonController
 
     public function deletePerson(Person $person)
     {
-        $this->orm->deletePerson($person;)
+        $this->orm->deletePerson($person);
     }
 
-    public function updatePerson()
+    public function updatePerson(Person $person)
     {
-        // person has been updated
+        $this->orm->updatePerson($person);
     }
 }
